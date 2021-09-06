@@ -199,8 +199,8 @@ void loop()
   display.setTextSize(1);
   printCenter("ADA/USD", 0, 0);                                                //Display the comparison header
 
-  display.setTextSize(2);
-  printCenter("$" + ADAUSDPrice, 0, 25);                                       //Display the current price
+  display.setTextSize(3);
+  printCenter("$" + ADAUSDPrice, 0, 20);                                       //Display the current price
 
   display.setTextSize(1);                                                      //Display the change percentage
   dayChangeString = dayChangeString + percentChange + "%";
